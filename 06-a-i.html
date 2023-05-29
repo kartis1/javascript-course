@@ -13,8 +13,14 @@
 
 
   <Script>
-    let hour = 19
-    
+    let hour = 19;
+    if (hour >= 6 && hour <= 12){
+      console.log('Good Morning!');
+    }else if(hour >= 13 && hour <= 17){
+      console.log('Good Afternoon!');
+    }else if ( hour >= 18 && hour <= 24){
+      console.log('Good Night!');
+    }
 
   </Script> 
 </body>
