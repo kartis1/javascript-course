@@ -13,8 +13,13 @@
 
 
   <script>
-    let randomNumber = Math.random();
-    
+    const randomNumber = Math.random();
+
+    if(randomNumber < 0.5){
+      console.log('heads');
+    } else (randomNumber > 0.5){
+      console.log('tails');
+    }
 
 
   </script>
