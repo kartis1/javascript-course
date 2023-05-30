@@ -14,12 +14,20 @@
 
   <script>
     const randomNumber = Math.random();
-
+    let result;
+    
     if(randomNumber < 0.5){
-      console.log('heads');
-    } else (randomNumber > 0.5){
-      console.log('tails');
+      result = 'heads';
+    } else{
+      result = 'tails';
     }
+    const guess = 'heads';
+    if( guess === 'heads'){
+      console.log('You Win!');
+    }else{
+      console.log('You Lose.');
+    }
+
 
 
   </script>
